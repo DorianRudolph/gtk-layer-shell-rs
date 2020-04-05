@@ -1,5 +1,5 @@
 [package]
-name = "gtk-layer-shell-rs"
+name = "gtk-layer-shell"
 version = "0.1.0"
 authors = ["David McKinney <mckinney@subgraph.com>"]
 edition = "2018"
