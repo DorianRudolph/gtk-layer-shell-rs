@@ -5,9 +5,11 @@ authors = ["David McKinney <mckinney@subgraph.com>"]
 edition = "2018"
 
 [dependencies]
-libc = "0.2.68"
+libc = "0.2.74"
 bitflags = "1.2.1"
-gdk = { version = "0.12.1", features = ["v3_22"] }
-glib = "0.9.3"
-gtk = "0.8.1"
+gdk = { version = "0.13.0", features = ["v3_22"] }
+glib = "0.10.1"
+gtk = "0.9.1"
 gtk-layer-shell-sys = { path = "gtk-layer-shell-sys" }
+
+gio = "0.9.0"
